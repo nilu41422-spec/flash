@@ -1,0 +1,64 @@
+# MongoDB Portable Binaries & Data
+mongodb_bin/
+mongodb_data/
+
+# Environment Variables & Secrets (Keep your API keys safe)
+.env
+.env.*
+!.env.example
+*.env
+*.env.local
+**/.env
+**/.env.*
+!**/.env.example
+
+# Node.js Dependencies & Build Artifacts
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+dist-ssr/
+build/
+
+# Python Virtual Environments & Cache
+venv/
+**/venv/
+.venv/
+**/.venv/
+env/
+**/env/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Operating System & IDE Files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archives & Large Zips
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# General Logs & Backups
+*.log
+logs/
+.git_submodules_backup/
+*.bak
